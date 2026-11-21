@@ -71,7 +71,6 @@ header nav a {
 header nav a:hover,
 header nav a.active {
     color: var(--primary-color);
-    color: #fff;
 
 }
 
@@ -102,7 +101,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: white;
 }
 
 .hero article {
@@ -111,7 +110,7 @@ h1 {
     right: 20px;
     width: 60%;
     margin: 0;
-    background-color: rgba(232, 244, 248, 0.92);
+    background-color: var(--accent2-color);
     border-left: 6px solid var(--secondary-color);
     border-radius: 6px;
 }
@@ -163,8 +162,8 @@ footer {
     padding: 5px;
     display: flex;
     flex-flow: column;
-    border: thin solid #e8f4f8;
-    background-color: #fff;
+    border: thin solid var(--primary-color);
+    background-color: white;
 }
 
 .gallery img {
@@ -174,8 +173,8 @@ footer {
 }
 
 .gallery figcaption {
-    background-color: #222;
-    color: #fff;
+    background-color: black;
+    color: white;
     font-size: 0.85rem;
     font-style: italic;
     padding: 3px;
